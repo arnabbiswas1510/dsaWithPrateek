@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bc36766-61db-46f9-b206-e1f4eadc5449" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture-4/6-minRemoveParenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture-4/6-minRemoveParenthesis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture-4/7-checkRedundant.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture-4/7-checkRedundant.py" afterDir="false" />
-    </list>
+    <list default="true" id="2bc36766-61db-46f9-b206-e1f4eadc5449" name="Default Changelist" comment="Lecture 4, assignments 5-7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,6 +156,14 @@
       <option name="presentableId" value="Default" />
       <updated>1621279378873</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lecture 4, assignments 5-7">
+      <created>1621286861977</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621286861977</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +176,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lecture 4, assignments 5-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture 4, assignments 5-7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
