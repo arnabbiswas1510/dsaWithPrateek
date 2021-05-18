@@ -1,5 +1,4 @@
 /.idea/
-/Lecture-4/8-decodeString.py
 /venv/lib/python3.8/site-packages/pip/_vendor/packaging/__about__.py
 /venv/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/__about__.py
 /venv/lib/python3.8/site-packages/setuptools/_vendor/packaging/__about__.py
@@ -570,3 +569,5 @@
 /venv/lib/python3.8/site-packages/pip/_vendor/pep517/wrappers.py
 /venv/lib/python3.8/site-packages/pip/_vendor/webencodings/x_user_defined.py
 /venv/lib/python3.8/site-packages/pip/_internal/network/xmlrpc.py
+*.iml
+dsaWithPrateek.iml
