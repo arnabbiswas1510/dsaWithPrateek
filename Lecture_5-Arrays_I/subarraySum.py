@@ -1,3 +1,8 @@
+"""
+Intuition here is to compute a map of prefixSum counts as you iterate the input
+And check of sumSoFar-K exists in map and return result += map[sumSofar-k]
+Be careful of the notes mentioned in comments below
+"""
 def subarrySum(arr, k):
     sumMap={0:1} #Remember to initialize sumMap with this for the initial state.
     # 0 is a valid sum that would be used in the lookups
