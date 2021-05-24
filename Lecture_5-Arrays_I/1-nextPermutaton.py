@@ -33,6 +33,10 @@ def nextPermutation(arr):
     i=len(arr)-1
     while i >=0 and arr[i-1] > arr[i]:
             i-=1
+    """
+    An alternative to the nextStrictlyLarger is to iterate the right array in reverse and return the first element 
+    greater than i. This will work since the right most array always goes up. But the cost is linear instead of log n 
+    """
     j = nextStrictlyLarger(arr,i,len(arr)-1, int(arr[i-1]))
     arr[i-1], arr[j] = arr[j], arr[i-1]
     return reverse(arr,i)

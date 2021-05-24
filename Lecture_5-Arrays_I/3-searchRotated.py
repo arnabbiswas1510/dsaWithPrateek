@@ -23,4 +23,4 @@ def searchRotated(arr, k):
                 hi = mid-1
     return -1
 
-print(searchRotated([3,8,9,11,13,0,1,2],2))
+print(searchRotated([3,8,9,11,13,0,1,2],9))
