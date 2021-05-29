@@ -12,6 +12,7 @@ def minLights(A, power):
     while (left < n):
         pos = min(left + power, n-1) #Remember the total range is 2*power -1
         flag = False
+        #Iterate backwards over the range from pos to left and break if you find at least one lighted bulb
         while pos >= left:
             if A[pos] ==1:
                 ans+=1
