@@ -25,7 +25,7 @@ def pivotIndexNoSpaceDoesntWork(arr):
     sumArr=sum(arr)
     sumSoFar=0
     for k,v in enumerate(arr):
-        if sumSoFar == sumArr - sumSoFar:
+        if sumSoFar == sumArr - sumSoFar - v: #You need to also subtract v to make this work
             return k #Do this frst since we need to exclude the current index
         else:
             sumSoFar += v
@@ -45,5 +45,5 @@ def pivotIndexNoSpace(arr):
 
 
 
-print(pivotIndexNoSpace([1, 7, 3, 6, 5, 6]))
+print(pivotIndexNoSpaceDoesntWork([1, 7, 3, 6, 5, 6]))
         
