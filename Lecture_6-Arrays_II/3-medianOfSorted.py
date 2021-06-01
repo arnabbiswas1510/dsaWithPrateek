@@ -26,6 +26,6 @@ def medianOfSorted(X, Y):
         else:
             lo = partX + 1
 
-print(medianOfSorted([1,3,7,9],[2,4,6,8,10,11]))
+print(medianOfSorted([1,7,9],[2,8,11]))
 
 
