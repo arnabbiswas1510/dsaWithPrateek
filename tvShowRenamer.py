@@ -11,7 +11,7 @@ def natural_keys(text):
     '''
     return [ atoi(c) for c in re.split(r'(\d+)', text) ]
 
-files="/Volumes/Media/Religious Videos/SRI KRISHNA/*.avi"
+files="/Volumes/Media/4K Video Downloader/Mahakaali/*.mp4"
 regex=re.compile("\d+")
 
 fileList = glob.glob(files)
@@ -26,9 +26,12 @@ for file in fileList:
     num = regex.findall(f_name)
     #ind = re.search(r'\d \w', f_name).start()
     #n_name = "S01E"+ num[0] + " - Sri Krishna - "+f_name[ind+2:]
-    n_name = "S01E"+ num[0] + " - Sri Krishna"
+    if "Season" in f_name:
+        n_name = "S01E"+ num[1] + " - Mahakaali"
+    else:
+        n_name = "S01E"+ num[0] + " - Mahakaali"
     cnt+=1
     chkCnt+=1
     new_name = '{}/{}{}'.format(f_dir,n_name, f_ext)
     print('Rename - '+f_name+" -to- "+n_name)
-    shutil.move(file, new_name) #This works across File Systems #Uncomment this line to execute the rename
+    #shutil.move(file, new_name) #This works across File Systems #Uncomment this line to execute the rename
