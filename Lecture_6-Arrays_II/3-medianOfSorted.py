@@ -32,7 +32,7 @@ def medianOfSorted(X, Y):
                 # Return average of these two numbers as you do for median of even sized array
         elif maxLeftX > minRightY:
             """
-            We are searching for the equilibrium position for the partition that satisfier the condition in line 23
+            We are searching for the equilibrium position for the partition that satisfies the condition in line 23
             If it comes here then the equilibrium posn lies in the left of partX and hence move to the left half od partX
             """
             hi = partX - 1 #We need to move the partition towards the left hand side of partX in order to make maxLeftX < maxRightY
