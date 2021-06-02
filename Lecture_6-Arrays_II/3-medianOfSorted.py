@@ -31,9 +31,13 @@ def medianOfSorted(X, Y):
                 # which will be adjacent to the median in the combined array. These two numbers are max(l1,l2) and min(r1,r2)
                 # Return average of these two numbers as you do for median of even sized array
         elif maxLeftX > minRightY:
-            hi = partX - 1 #We need to move the partition towards the left hand side of X in order to make maxLeftX < maxRightY
+            """
+            We are searching for the equilibrium position for the partition that satisfier the condition in line 23
+            If it comes here then the equilibrium posn lies in the left of partX and hence move to the left half od partX
+            """
+            hi = partX - 1 #We need to move the partition towards the left hand side of partX in order to make maxLeftX < maxRightY
         else:
-            lo = partX + 1 #Else we move partition towards the right side of X
+            lo = partX + 1 #Else we move partition towards the right side of partX
 
 print(medianOfSorted([1,7,9],[2,8,11]))
 
