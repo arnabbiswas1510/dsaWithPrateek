@@ -11,7 +11,7 @@ def medianOfSorted(X, Y):
         #First compute the partitions
         partX = (lo+hi)//2 #You are performing binary search on this array since it is shorter
         partY = (lenX+lenY)//2-partX #This is the partition that will be automatically controlled by the logic,
-        # you are not explicitly seraching on this one
+        # you are not explicitly searching on this one
 
         #Then the 4 comparison points adjacent to the partition
         maxLeftX= X[partX - 1] if partX > 0 else float('-inf')
@@ -21,10 +21,10 @@ def medianOfSorted(X, Y):
 
         #Next perform the cross comparison
         if maxLeftX <= minRightY and maxLeftY <= minRightX: #Establish the correct partition, this is because all
-            # elements on left of the partition needs to be greater than all elements on right, for this to be
+            # elements on left of the partition needs to be lesser than all elements on right, for this to be
             # correct partition. And hence this logic
             if (lenX + lenY)%2 != 0: #Odd median point
-                return max(minRightY, minRightY) #The left will always have the extra element in case of odd sum
+                return max(maxLeftX, maxLeftY) #The left will always have the extra element in case of odd sum
             # and it will obviously need to be the larger of the two in order to be the median
             else:
                 return (max(maxLeftX, maxLeftY) + min(minRightX, minRightY))/2 #You are identifying the two numbers
