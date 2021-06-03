@@ -32,8 +32,8 @@ def minPlatformsSlow(arr, dep):
         maxPlatforms=max(maxPlatforms, platforms) #This works because of line 8 where platforms is reset for each index
     return maxPlatforms
 
-arr=[900, 940, 950, 1100, 1500, 1800]
-dep=[910, 1200, 1120, 1130, 1900, 2000]
+arr=[910, 1200,1225,1238,1241, 1242,1243]
+dep=[1100, 1230,1235,1330,1345,1346,1347]
 
 
 """
