@@ -29,7 +29,7 @@ def minPlatformsSlow(arr, dep):
             if arr[i] >= arr[j] and arr[i] <= dep[j] \
                 or arr[j] >= arr[i] and arr[j] <= dep[i]: #See keep Image
                 platforms+=1
-        maxPlatforms=max(maxPlatforms, platforms) #This works because of line 8 where platforms is reset for each index
+        maxPlatforms=max(maxPlatforms, platforms) #This works because of line 27 where platforms is reset for each index
     return maxPlatforms
 
 arr=[910, 1200,1225,1238,1241, 1242,1243]
