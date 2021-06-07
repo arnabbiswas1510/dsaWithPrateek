@@ -31,7 +31,7 @@ def minSubArray(arr, k):
     for i in range(len(arr)):
         sum += arr[i]
         while sum >= k:
-            res=min(res, i+1-left) #First set res, i+1-k is a very standard formula for moving window size and such problems
+            res=min(res, i-left+1) #First set res, i-(k-1) or i-k+1 is a very standard formula for moving window size and such problems
             sum -= arr[left] # Then update sum
             left +=1 #And increment left
     return res
