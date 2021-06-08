@@ -4,6 +4,9 @@ https://leetcode.com/problems/koko-eating-bananas/
 Good related readup on binary search:
 https://leetcode.com/problems/koko-eating-bananas/discuss/769702/Python-Clear-explanation-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems.
 
+Very similar to the page allocation problem:
+https://www.geeksforgeeks.org/allocate-minimum-number-pages/
+
 Clarification of the Examples: You find the smallest number between the min and max piles which will allow koko to
 finish all bananas within the allocated hours.
 
