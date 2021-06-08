@@ -36,7 +36,8 @@ def kClosest(arr, x, k):
     lo, hi = 0, len(arr)-k #Note hi here or else arrayindexoutofbounds
     while lo<hi:
         mid = (lo + hi)//2
-        if x-arr[mid]>arr[mid+k]-x: #Note this comparison is very similar to find closest element
+        if x-arr[mid]>arr[mid+k]-x: #Note this comparison is very similar to find closest element.
+            # It is done like this since arr[mid] < x < arr[mid+k]
             lo = mid + 1
         else:
             hi = mid #Again note that high=mid and not mid-1 since mid itself is a result here since we are also factoring in mid+k

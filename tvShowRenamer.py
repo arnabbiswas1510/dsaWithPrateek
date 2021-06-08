@@ -11,7 +11,7 @@ def natural_keys(text):
     '''
     return [ atoi(c) for c in re.split(r'(\d+)', text) ]
 
-files="/Volumes/Media/4K Video Downloader/Shree Lakshmi Narayan/*.mp4"
+files="/Volumes/Media/4K Video Downloader/Om Namah Shivay Serial/*.mp4"
 regex=re.compile("\d+")
 
 fileList = glob.glob(files)
@@ -20,18 +20,27 @@ fileList.sort(key=natural_keys)
 cnt=1
 chkCnt=1
 for file in fileList:
-    f_name, f_ext = os.path.splitext(os.path.basename(file))
-    f_dir=os.path.dirname(file)
-    #if "S01E"+str(chkCnt) in f_name and chkCnt < 47:
-    num = regex.findall(f_name)
-    # ind = re.search(r'\d.*\w', f_name).start()
-    # n_name = "S01E"+ num[0] + " - Shri Krishna"+f_name[ind+4:]
-    if "Season" in f_name:
-        n_name = "S01E"+ num[1] + " - Shree Lakshmi Narayan"
-    else:
-        n_name = "S01E"+ num[0] + " - Shree Lakshmi Narayan"
-    cnt+=1
-    chkCnt+=1
-    new_name = '{}/{}{}'.format(f_dir,n_name, f_ext)
-    print('Rename - '+f_name+" -to- "+n_name)
-    #shutil.move(file, new_name) #This works across File Systems #Uncomment this line to execute the rename
+    if 'S01' not in file:
+        f_name, f_ext = os.path.splitext(os.path.basename(file))
+        f_dir=os.path.dirname(file)
+        #if "S01E"+str(chkCnt) in f_name and chkCnt < 47:
+        num = regex.findall(f_name)
+        ind = re.search(r'\d.*\w', f_name).start() if re.search(r'\d.*\w', f_name) else 0
+        if num and ind > 0:
+            n_name = "S01E"+ num[0] + " - Om Namah Shivay"+f_name[ind+4:]
+        else:
+            n_name = "S01E"+ str(cnt) + " - "+f_name
+        # if "Season" in f_name:
+        #     n_name = "S01E"+ num[1] + " - Jai Mahalakshmi"
+        # else:
+        #     n_name = "S01E"+ num[0] + " - Jai Mahalakshmi"
+        cnt+=1
+        chkCnt+=1
+        new_name = '{}/{}{}'.format(f_dir,n_name, f_ext)
+        print('Rename - '+f_name+" -to- "+n_name)
+        try:
+            shutil.move(file, new_name) #This works across File Systems #Uncomment this line to execute the rename
+            pass
+        except:
+            import sys
+            print("Oops!", sys.exc_info()[0], "occurred.")
