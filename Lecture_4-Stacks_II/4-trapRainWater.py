@@ -1,4 +1,6 @@
 """
+https://leetcode.com/problems/trapping-rain-water/
+
 Simpler approach with extra space -
 Approach: we just need to focus on water over a particular bar.
 This boils down to the problem of knowing local maxima on both sides of the bar.
