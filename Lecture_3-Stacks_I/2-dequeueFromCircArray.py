@@ -4,9 +4,10 @@ Another implementation of Dequeue is using doubly linked lists
 
 Applications of dequeue: 1. Undo and Redo 2. Pallindrome checker 3. Imp: Job stealing in multiprocessor thread scheduling
 
-You need circular queue because in a linear queue when you dequeue there might be vacant spots still left in the queue since you have 2 different tail (rear, for enqueing) and head (front for dequeing) pointers
+You need circular queue because in a linear queue when you dequeue there might be vacant spots still left in the queue
+since you have 2 different tail (rear, for enqueing) and head (front for dequeing) pointers
 
-In Circular Queue, formula to enqueue => rear = (rear+1)%n. Hence Formula to check ir queue is full = (rear+1)%n == front
+In Circular Queue, formula to enqueue => rear = (rear+1)%n. Hence Formula to check if queue is full = (rear+1)%n == front
 
 """
 
