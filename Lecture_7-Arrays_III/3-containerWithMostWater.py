@@ -5,7 +5,7 @@ Easier variant of the trapRainWater problem (https://github.com/arnabbiswas1510/
 """
 
 def mostWaterNaive(num):
-    maxArea=-99^99 #A very large number, use instead of float('-inf')
+    maxArea=-99**99 #A very large number, use instead of float('-inf')
     for i in range(len(num)):
         for j in range(i+1,len(num)):
             maxArea = max(maxArea, (j-i)*min(num[i], num[j]))
@@ -13,7 +13,7 @@ def mostWaterNaive(num):
 
 def mostWater(num):
     i,j=0,len(num)-1
-    maxArea=-99^99
+    maxArea=-99**99
     while i<j:
         maxArea = max(maxArea, (j-i)*min(num[i], num[j]))
         if i < j:
