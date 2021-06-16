@@ -1,3 +1,11 @@
+"""
+https://leetcode.com/problems/largest-rectangle-in-histogram/
+
+Approach:
+
+Use a monotonically ncreasng stack to push all items that are greater than top as you iterate through array
+"""
+
 def maxHistogram(arr):
     maxArea=float('-inf')
     area=0
@@ -15,7 +23,8 @@ def maxHistogram(arr):
                 area = arr[top]*(i-stack[-1]-1) #This formula is tricky (i - peek -1)
             else:
                 area = arr[top]*i
-            maxArea= max(maxArea, area) #Note maxArea gets computed only here and not indented left scope
+            maxArea= max(maxArea, area) #Note maxArea gets computed only here and not indented left scope. Hence area
+            # is not being computed for every i - only if arr[i] reduces
 
     while stack:
         top = stack.pop()

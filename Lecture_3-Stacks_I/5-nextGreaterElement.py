@@ -15,7 +15,7 @@ Element NGE 13 --> -1 7 --> 12 6 --> 12 12 --> -1
 def printNGE(arr):
     st=[]
     st.append(arr[0])
-    #The trick in this problem is to print NFE only off the stack elements
+    #The trick in this problem is to print NGE only off the stack elements
     for i in range(1,len(arr)):
         while st and arr[i] > st[-1]: #Keep popping off stack as long as arr is greater
             print(str(st.pop()) + " -> " + str(arr[i]))
