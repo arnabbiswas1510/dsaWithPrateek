@@ -39,7 +39,7 @@ for file in fileList:
         new_name = '{}/{}{}'.format(f_dir,n_name, f_ext)
         print('Rename - '+f_name+" -to- "+n_name)
         try:
-            shutil.move(file, new_name) #This works across File Systems #Uncomment this line to execute the rename
+            #shutil.move(file, new_name) #This works across File Systems #Uncomment this line to execute the rename
             pass
         except:
             import sys

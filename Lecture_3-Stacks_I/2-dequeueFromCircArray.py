@@ -5,10 +5,18 @@ Another implementation of Dequeue is using doubly linked lists
 Applications of dequeue: 1. Undo and Redo 2. Pallindrome checker 3. Imp: Job stealing in multiprocessor thread scheduling
 
 You need circular queue because in a linear queue when you dequeue there might be vacant spots still left in the queue
-since you have 2 different tail (rear, for enqueing) and head (front for dequeing) pointers
+since you have 2 different tail (rear, for enqueing) and head (front for dequeing) pointers. Circular array can be used
+for regular queues too.
 
 In Circular Queue, formula to enqueue => rear = (rear+1)%n. Hence Formula to check if queue is full = (rear+1)%n == front
 
+Memory aids:
+1. Both front and rear methods modify only the corresponding indexes (front and rear)
+2. The standard is frontDelete and rearInsert. So these two methods increment front and rear pointers
+3. The Reverese s frontInsert and rearDelete. These two methods decrement the pointers
+4. Remember the empty, single element and full conditions since these are special cases
+5. To display iterate from front to rear
+6. The only trick to make array circular is r = (r+ 1)%n and its variants for f
 """
 
 length = 5
@@ -64,7 +72,7 @@ class Dequeue: #Remember the globals
             ret = arr[front]
             if front == rear:  # 2. Is there only a single element left, always same
                 front = rear = -1
-            else:  # 3. Normal, delete ..
+            else:  # 3. Normal, dnelete ..
                 rear = (rear + length - 1) % length #Only different line from frontDelete
         return ret
 

@@ -1,6 +1,7 @@
 """
 InfixtoPostfix
-Infix you need to follow extra rules ie precedence and associativity of operators. Postfix and Prefix dont need precedence and associativity rules hence they are cheaper in both memory and time. But they are not human friendly.
+Infix you need to follow extra rules ie precedence and associativity of operators. Postfix and Prefix dont need
+precedence and associativity rules hence they are cheaper in both memory and time. But they are not human friendly.
 
 Infix (Polish) and Postfix (reverse polish).
 
@@ -92,7 +93,8 @@ def toPostFix(st):
             if isOp(ch):
                 #Pop and print all operators that are of lesser precedence
                 while not s.isempty() and ((precedence(ch) <= precedence(s.peek())) \
-                                           or (precedence(ch) <= precedence(s.peek()) and ch=='^')): #Note this important combination RtoL associativity for ^ along with precendence rule
+                                           or (precedence(ch) <= precedence(s.peek()) and ch=='^')): #Note this
+                    # important combination RtoL associativity for ^ along with precendence rule
                     out += s.pop()
                 s.push(ch) #And push the higher precedence operator back into stack
     while not s.isempty():
