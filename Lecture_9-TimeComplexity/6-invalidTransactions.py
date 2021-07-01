@@ -17,4 +17,4 @@ def invalidTransactions(intervals):
 
 #print(invalidTransactions([("alice",50,100,"beijing"),("alice",20,800,"mtv")]))
 #print(invalidTransactions([("alice",20,800,"mtv"),("alice",50,1200,"mtv")]))
-print(invalidTransactions([("alice",20,800,"mtv"),("bob",50,1200,"mtv")]))
+print(invalidTransactions([("alice",20,300,"mtv"),("alice",30,400,"mtv"),("alice",50,400,"mtv")]))

@@ -1,5 +1,8 @@
 """
 During each iteration, select the smallest item from the unsorted partition and move it to the sorted partition
+
+In selection sort you select the number in every iteration - smallest number in case of ascending. Similar to bubble
+but you dont compare adjacent indexes
 """
 def selectionSort(arr):
     for i in range(len(arr)):

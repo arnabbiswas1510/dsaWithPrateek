@@ -1,8 +1,11 @@
 """
   Approach:
-    1)put all the elements into hash map with key as number and
+    1)put all the elements into hash map with key as k-num and
     there will be chance of same number in given input, so value will be list of indexes.
-    2)iterate through given array check if map contains ( k-sum of i) and resturn that as result
+    2)iterate through given array check if map contains num as key and return that val and curr i as result
+
+Point to remember:
+We add k-num as key and i as val to map. This makes it possible for curr num == k - prev num
 """
 
 def twoSum(arr, k):
