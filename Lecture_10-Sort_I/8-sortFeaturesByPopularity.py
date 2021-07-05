@@ -17,3 +17,5 @@ def sortFeatures(features, responses):
                 freq[word] += 1
     features.sort(key=lambda x: (-freq[x], order[x]))
     return features
+
+print(sortFeatures(["cooler","lock","touch"],["i like cooler cooler","lock touch cool","locker like touch"]))
