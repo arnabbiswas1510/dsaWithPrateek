@@ -7,9 +7,7 @@ class BinHeap:
     def percUp(self,i):
         while i // 2 > 0:
             if self.heapList[i] < self.heapList[i // 2]:
-                tmp = self.heapList[i // 2]
-                self.heapList[i // 2] = self.heapList[i]
-                self.heapList[i] = tmp
+                self.heapList[i // 2], self.heapList[i] = self.heapList[i], self.heapList[i // 2]
             i = i // 2
 
     def insert(self,k):
@@ -21,9 +19,7 @@ class BinHeap:
         while (i * 2) <= self.currentSize:
             mc = self.minChild(i)
             if self.heapList[i] > self.heapList[mc]:
-                tmp = self.heapList[i]
-                self.heapList[i] = self.heapList[mc]
-                self.heapList[mc] = tmp
+                self.heapList[mc], self.heapList[i] = self.heapList[i], self.heapList[mc]
             i = mc
 
     def minChild(self,i):
