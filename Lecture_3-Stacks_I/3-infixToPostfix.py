@@ -6,6 +6,23 @@ precedence and associativity rules hence they are cheaper in both memory and tim
 Infix (Polish) and Postfix (reverse polish).
 
 Stack enables you to convert Infix to Postfix/Prefix by scanning only once.
+
+Rules for Infix to postfix using stack DS. You need to know the below rules in order to write the program
+1. Scan Expression from Left to Right
+2. Print OPERANDs as the arrive
+3. If OPERATOR arrives & Stack is empty, push this operator onto the stack
+4. IF incoming OPERATOR has HIGHER precedence than the TOP of the Stack, push it on stack
+5. IF incoming OPERATOR has LOWER precedence than the TOP of the Stack, then POP and print the TOP. Then test the
+incoming operator against the NEW TOP of stack.
+6. IF incoming OPERATOR has EQUAL precedence with TOP of Stack, use ASSOCIATIVITY Rules.
+7. For ASSOCIATIVITY of LEFT to RIGHT –
+     POP and print the TOP of stack, then push the incoming OPERATOR
+8. For ASSOCIATIVITY of RIGHT to LEFT –
+    PUSH incoming OPERATOR on stack.
+9. At the end of Expression, POP & print all  OPERATORS from the stack
+10.IF incoming SYMBOL is ‘(‘ PUSH it onto Stack.
+11.IF incoming SYMBOL is ‘)’ POP the stack and print OPERATORs till ‘(‘ is found. POP that ‘(‘
+12.IF TOP of stack is ‘(‘ PUSH OPERATOR on Stack
 """
 
 length = 0 #Global variables need to be outside the class definition
