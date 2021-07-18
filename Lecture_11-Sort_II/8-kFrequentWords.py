@@ -12,7 +12,7 @@ def topKFrequent(words, k):
 
 """
 Alternate approach using sorted
-Similar to: 
+Similar to: https://github.com/arnabbiswas1510/dsaWithPrateek/blob/main/Lecture_11-Sort_II/7-kFrequentElements.py
 """
 
 def topKFrequent2(words, k):
