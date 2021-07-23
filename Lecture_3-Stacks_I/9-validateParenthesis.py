@@ -10,6 +10,8 @@ def validateParenthesis(expr):
             if ch in ['(','{','(']:
                 st.append(ch)
             else:
+                if not st: # For edge case where sequence begins with closing parenthesis
+                    return False
                 stCh=st.pop()
                 if stCh == '(' and not ch==')':
                     return False
