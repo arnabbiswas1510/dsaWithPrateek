@@ -17,7 +17,7 @@ def natural_keys(text):
     '''
     return [ atoi(c) for c in re.split(r'(\d+)', text) ]
 
-path="/Volumes/Media/4K Video Downloader/Data Structures and Algorithms By Prof Naveen Garg"
+path="Z:\\4K Video Downloader\\ Om Namah Shivay (1997)"
 #path="/Volumes/miscellaneous/Workout Videos"
 regex=re.compile("\d+")
 sCnt=1
@@ -56,7 +56,7 @@ prev_parent=None
 sCnt=1
 
 for dirpath, dirnames, filenames in os.walk(path):
-    eCnt=0
+    eCnt=249
     filenames.sort(key=natural_keys)
     seq_from_files=False
     for filename in filenames:
@@ -79,7 +79,7 @@ for dirpath, dirnames, filenames in os.walk(path):
             if s != -1:
                 eCnt = e_Cnt
             else:
-                eCnt+=1
+                eCnt=int(eCnt)+1
             new_path = os.path.join(dirpath, f_name[:s]+f_name[e:]+'-S'+str(sCnt)+'E'+str(eCnt)+f_ext)
             print(full_path + " - to - "+ new_path)
             shutil.move(full_path, new_path)
