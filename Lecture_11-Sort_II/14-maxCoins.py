@@ -1,5 +1,10 @@
 """
 https://leetcode.com/problems/maximum-number-of-coins-you-can-get/
+
+Important thing to understand in this problem is that the bottom pile (n/3) is Bob's so you dont iterate there.
+Next when you pick alternate coins out of the remaining 2n/3 coins, you are guaranteed to pick only n/3 coins,
+which is the number that you must pick. In neither solution below are you explicitly checking that you have
+picked only n/3 coins
 """
 def maxCoins(piles):
     return sum(sorted(piles)[len(piles)//3 :: 2])
