@@ -17,7 +17,7 @@ def verticalTraversal(arr):
 
     while parent:
         node, row, column = parent.popleft()
-        columnTable[column].append((row, node.data))
+        columnTable[column].append((row, node.val))
         if node.left:
             parent.append((node.left,row+1, column-1))
         if node.right:

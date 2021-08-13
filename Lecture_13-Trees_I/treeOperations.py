@@ -1,6 +1,6 @@
 class Node:
     def __init__(self, data):
-        self.data = data
+        self.val = data
         self.left = None
         self.right = None
 
@@ -13,7 +13,7 @@ class Tree:
 #Note that you cannot pass a null root to this method since you need a handle
     # to insert new node
     def recInsert(self, root, val):
-        if root.data < val:
+        if root.val < val:
             if root.right:
                 self.recInsert(root.right, val)
             else:
@@ -42,7 +42,7 @@ class Tree:
         child=root
         while True:
             parent=child
-            if n.data < child.data: #Move left
+            if n.val < child.val: #Move left
                 child = child.left
                 if not child:
                     parent.left=n
@@ -62,9 +62,9 @@ class Tree:
         parent = self.starNode
         isLeftChild = True
 
-        while current.data != val:
+        while current.val != val:
             parent = current
-            if val < current.data:
+            if val < current.val:
                 isLeftChild=True
                 current=current.left
             else:
@@ -119,7 +119,7 @@ class Tree:
                 while successor.left:
                     successor=successor.left
 
-                current.data = successor.data
+                current.val = successor.val
                 if not parent:
                     current.right=successor.right
                 else:
@@ -146,7 +146,7 @@ class Tree:
     def inorder(self, node):
         if node:
             self.inorder(node.left)
-            print(node.data, end=",")
+            print(node.val, end=",")
             self.inorder(node.right)
 
     def inorderIter(self, node):
@@ -158,7 +158,7 @@ class Tree:
             else:
                 if st:
                     node=st.pop()
-                    print(node.data, end=",")
+                    print(node.val, end=",")
                     node=node.right
                 else:
                     break
@@ -169,7 +169,7 @@ class Tree:
             st.append(node)
         while st:
             node=st.pop()
-            print(node.data, end=",")
+            print(node.val, end=",")
             if node.right: #Since its stack you append in reverse order of printing
                 st.append(node.right)
             if node.left:
@@ -192,30 +192,28 @@ class Tree:
                         st.append(node)
                         node=node.right
                     else:
-                        print(node.data, end=",")
+                        print(node.val, end=",")
                         node=None #Move to right or None
                 else:
                     break
 
-    def insertLevelOrder(self, arr, root=None, i=0):
+    def insertLevelOrder(self, arr, i=0):
         n=len(arr)
+        root=None
         # Base case for recursion
         if i < n and arr[i]:
-            temp = Node(arr[i])
-            root = temp
+            root = Node(arr[i])
 
             # insert left child
-            root.left = self.insertLevelOrder(arr, root.left,
-                                         2 * i + 1)
+            root.left = self.insertLevelOrder(arr, 2 * i + 1)
 
             # insert right child
-            root.right = self.insertLevelOrder(arr, root.right,
-                                          2 * i + 2)
+            root.right = self.insertLevelOrder(arr, 2 * i + 2)
         return root
 
-tree=Tree()
-root=tree.insertLevelOrder([1, 2, 3, 4, 5, 6, 6, 6, 6, 6])
-tree.inorder(root)
+# tree=Tree()
+# root=tree.insertLevelOrder([1, 2, 3, 4, 5, 6, 6, 6, 6, 6])
+# tree.inorder(root)
 
 
 
