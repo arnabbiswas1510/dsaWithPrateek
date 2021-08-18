@@ -3,6 +3,7 @@ class Node:
         self.val = data
         self.left = None
         self.right = None
+        self.parent = None
 
 class Tree:
     def __init__(self):
@@ -197,18 +198,33 @@ class Tree:
                 else:
                     break
 
-    def insertLevelOrder(self, arr, i=0):
+    def printLevelOrder(self, root): #BFS
+        from collections import deque
+        if not root:
+            return []
+        q = deque([root])
+        while q:
+            for _ in range(len(q)):
+                n = q.popleft()
+                print(n.val if n else None, end=",")
+                if n:
+                    q.append(n.left)
+                #if n.right:
+                    q.append(n.right)
+
+    def insertLevelOrder(self, arr, i=0, parent=None):
         n=len(arr)
         root=None
         # Base case for recursion
-        if i < n and arr[i]:
+        if i < n and arr[i] is not None:
             root = Node(arr[i])
+            root.parent=parent
 
             # insert left child
-            root.left = self.insertLevelOrder(arr, 2 * i + 1)
+            root.left = self.insertLevelOrder(arr, 2 * i + 1, root)
 
             # insert right child
-            root.right = self.insertLevelOrder(arr, 2 * i + 2)
+            root.right = self.insertLevelOrder(arr, 2 * i + 2, root)
         return root
 
 # tree=Tree()
