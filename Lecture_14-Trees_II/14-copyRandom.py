@@ -76,3 +76,30 @@ def copyRandomDfs(root): #Preferred method since it is shorter
 r=constructRandom([[1,6],[2,5],[3,4],[4,3],[5,2],[6,1],[7,0]])
 r= copyRandomDfs(r)
 print(r)
+
+"""
+PS: function "copyRandomDfs" fails on gfg clone tree problem, though I think its correct implementation.
+Another dfs implementation which gets accepted there is as below.
+"""
+
+class Solution:
+    def cloneTree(self, tree):
+        from collections import defaultdict
+        mapp = defaultdict()
+        def clone(root):
+            nonlocal mapp
+            if root is None: return
+            new = Node(root.data)
+            mapp[new] = new
+            new.left = clone(root.left)
+            new.right = clone(root.right)
+            if root.random:
+                if root.random in mapp:
+                    new.random = mapp[root.random]
+                else:
+                    new.random = Node(root.random.data)
+                    mapp[new.random] = new.random
+            else:
+                new.random = None
+            return new
+        return clone(tree)
