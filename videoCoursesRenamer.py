@@ -17,8 +17,7 @@ def natural_keys(text):
     '''
     return [ atoi(c) for c in re.split(r'(\d+)', text) ]
 
-path="Z:\\4K Video Downloader\\ Om Namah Shivay (1997)"
-#path="/Volumes/miscellaneous/Workout Videos"
+path="Y:\downloads\Java Collections Framework + Generics, Lambdas & Stream API\[TutsNode.com] - Java Collections Framework + Generics, Lambdas & Stream API"
 regex=re.compile("\d+")
 sCnt=1
 
@@ -52,6 +51,12 @@ def e_cnt(file):
     else:
         return -1,-1,-1
 
+def adjustForLength(path):
+    if len(path) > 255:
+        return '\\\\?\\' + path
+    else:
+        return path
+
 prev_parent=None
 sCnt=1
 
@@ -81,5 +86,7 @@ for dirpath, dirnames, filenames in os.walk(path):
             else:
                 eCnt=int(eCnt)+1
             new_path = os.path.join(dirpath, f_name[:s]+f_name[e:]+'-S'+str(sCnt)+'E'+str(eCnt)+f_ext)
+            full_path=adjustForLength(full_path)
+            new_path=adjustForLength(new_path)
             print(full_path + " - to - "+ new_path)
             shutil.move(full_path, new_path)
