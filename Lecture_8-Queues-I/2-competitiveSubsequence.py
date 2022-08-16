@@ -1,5 +1,6 @@
 """
 https://leetcode.com/problems/find-the-most-competitive-subsequence/
+#1673
 
 This is a good problem to apply stack, with the following idea: let us traverse original list number by number and put
 in into stack: if it happens that new number is less than the top of our stack and if we still can afford to delete one

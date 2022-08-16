@@ -1,5 +1,7 @@
 """
 https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
+
+Similar explanation: https://www.youtube.com/watch?v=kqHNP6NTzME
 """
 
 from collections import defaultdict
