@@ -3,7 +3,7 @@
 # This Function handles sorting part of quick sort
 # start and end points to first and last element of
 # an array respectively
-def partition(start, end, array):
+def partition(array, start, end):
 
     # Initializing pivot's index to start
     pivot_index = start
@@ -43,7 +43,7 @@ def quick_sort(start, end, array):
 
         # p is partitioning index, array[p]
         # is at right place
-        p = partition(start, end, array)
+        p = partition(array, start, end)
 
         # Sort elements before partition
         # and after partition

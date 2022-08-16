@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d331c8f-5955-46ef-bfe4-a7b7cc67193d" name="Default Changelist" comment="Sorting">
+      <change afterPath="$PROJECT_DIR$/.idea (1)/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea (1)/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea (1)/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea (1)/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea (1)/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea (1)/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_10-Sort_I/0-binaryHeap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_10-Sort_I/0-binaryHeap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_10-Sort_I/2-carPooling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_10-Sort_I/2-carPooling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_10-Sort_I/3-findMaximizedCapital.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_10-Sort_I/3-findMaximizedCapital.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_10-Sort_I/4-maxProduct.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_10-Sort_I/4-maxProduct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_10-Sort_I/5-checkIfCanBreak.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_10-Sort_I/5-checkIfCanBreak.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_10-Sort_I/6-arrangeWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_10-Sort_I/6-arrangeWords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_10-Sort_I/7-stoneGameVI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_10-Sort_I/7-stoneGameVI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_10-Sort_I/8-sortFeaturesByPopularity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_10-Sort_I/8-sortFeaturesByPopularity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/1-medianFinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/1-medianFinder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/10-relativeRanks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/10-relativeRanks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/11-empFreeTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/11-empFreeTime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/12-kStrongest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/12-kStrongest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/13-maxSumRangeQuery.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/13-maxSumRangeQuery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/14-maxCoins.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/14-maxCoins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/2-quickSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/2-quickSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/3-quickSelect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/3-quickSelect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/4-mergeSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/4-mergeSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/5-smallestRange.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/5-smallestRange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/6-distantBarcodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/6-distantBarcodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/7-kFrequentElements.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/7-kFrequentElements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/8-kFrequentWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/8-kFrequentWords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_11-Sort_II/9-sortSentance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_11-Sort_II/9-sortSentance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_12-LinkedList/2-detetectRemoveLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_12-LinkedList/2-detetectRemoveLoop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_12-LinkedList/3-intersection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_12-LinkedList/3-intersection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_12-LinkedList/4-copyRandomList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_12-LinkedList/4-copyRandomList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_12-LinkedList/5-pairSwap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_12-LinkedList/5-pairSwap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_12-LinkedList/6-LruCache.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_12-LinkedList/6-LruCache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_12-LinkedList/linkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_12-LinkedList/linkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_13-Trees_I/2-verticalTraversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_13-Trees_I/2-verticalTraversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_13-Trees_I/3-validateBST.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_13-Trees_I/3-validateBST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_13-Trees_I/4-symmetricTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_13-Trees_I/4-symmetricTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_13-Trees_I/5-maxLevelSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_13-Trees_I/5-maxLevelSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_13-Trees_I/6-minimumDepth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_13-Trees_I/6-minimumDepth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_13-Trees_I/7-pathSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_13-Trees_I/7-pathSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_13-Trees_I/8-pathSum2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_13-Trees_I/8-pathSum2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_13-Trees_I/9-pathSum3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_13-Trees_I/9-pathSum3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/1-sumRootToLeaf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/1-sumRootToLeaf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/10-lca3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/10-lca3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/11-diameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/11-diameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/12-quadTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/12-quadTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/13-arrayToBST.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/13-arrayToBST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/14-copyRandom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/14-copyRandom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/15-treeColoringGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/15-treeColoringGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/16-upsideDownBinaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/16-upsideDownBinaryTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/2-rightSideView.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/2-rightSideView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/3-treeBoundary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/3-treeBoundary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/4-invertTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/4-invertTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/7-goodNodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/7-goodNodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/8-codec.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/8-codec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_14-Trees_II/9-lca.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_14-Trees_II/9-lca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture_7-Arrays_III/6-minimumWindowAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture_7-Arrays_III/6-minimumWindowAllWords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsaWithPrateek/Lecture_12-LinkedList/3-intersection.py" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsaWithPrateek/Lecture_12-LinkedList/3-intersection.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1sg1NIzxE9fn8Lj2P9AqRcFk8DV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lecture_8-Queues-I" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.5-pruneTree">
+    <configuration name="0-binaryHeap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dsaWithPrateek" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lecture_10-Sort_I" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture_10-Sort_I/0-binaryHeap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="10-reorganizeString" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dsaWithPrateek" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lecture_10-Sort_I" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture_10-Sort_I/10-reorganizeString.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5-pruneTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dsaWithPrateek" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lecture_14-Trees_II" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture_14-Trees_II/5-pruneTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8-sortFeaturesByPopularity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dsaWithPrateek" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lecture_10-Sort_I" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture_10-Sort_I/8-sortFeaturesByPopularity.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9-tweetCounts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dsaWithPrateek" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lecture_10-Sort_I" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture_10-Sort_I/9-tweetCounts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.0-binaryHeap" />
+      <item itemvalue="Python.10-reorganizeString" />
+      <item itemvalue="Python.5-pruneTree" />
+      <item itemvalue="Python.8-sortFeaturesByPopularity" />
+      <item itemvalue="Python.9-tweetCounts" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.5-pruneTree" />
+        <item itemvalue="Python.10-reorganizeString" />
+        <item itemvalue="Python.9-tweetCounts" />
+        <item itemvalue="Python.0-binaryHeap" />
+        <item itemvalue="Python.8-sortFeaturesByPopularity" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d331c8f-5955-46ef-bfe4-a7b7cc67193d" name="Default Changelist" comment="assignments 8, 9 and ipynb" />
+      <created>1621279378873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621279378873</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Lecture 4, assignments 5-7">
+      <created>1621286861977</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621286861977</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added .gitignore">
+      <created>1621289800124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621289800125</updated>
+    </task>
+    <task id="LOCAL-00003" summary="assignments 8, 9 and ipynb">
+      <created>1621368339877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621368339877</updated>
+    </task>
+    <task id="LOCAL-00004" summary="gitignore">
+      <created>1621371601013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621371601018</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Bugfix - reversed directories while popping">
+      <created>1621394838060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621394838060</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Bugfix - reversed directories while popping">
+      <created>1621394911595</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621394911596</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Renamed Lecture 4 folder">
+      <created>1621433407819</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621433407820</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cleanup">
+      <created>1621433723471</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1621433723475</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Basic Calculator">
+      <created>1621481821897</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621481821897</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Basic Calculator">
+      <created>1621481913858</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621481913862</updated>
+    </task>
+    <task id="LOCAL-00011" summary="MaxDiffBetweenSmaller">
+      <created>1621533934267</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621533934267</updated>
+    </task>
+    <task id="LOCAL-00012" summary="nextPermutation">
+      <created>1621748447603</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621748447604</updated>
+    </task>
+    <task id="LOCAL-00013" summary="subarraySum">
+      <created>1621801797529</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1621801797530</updated>
+    </task>
+    <task id="LOCAL-00014" summary="subarraySum">
+      <created>1621801998196</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621801998196</updated>
+    </task>
+    <task id="LOCAL-00015" summary="searchRotated">
+      <created>1621803242929</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621803242929</updated>
+    </task>
+    <task id="LOCAL-00016" summary="All weekend problems">
+      <created>1621828833141</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1621828833142</updated>
+    </task>
+    <task id="LOCAL-00017" summary="revPermutation and taskScheduler">
+      <created>1621893418659</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1621893418659</updated>
+    </task>
+    <task id="LOCAL-00018" summary="2Sum">
+      <created>1621902293995</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1621902293995</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Current problems">
+      <created>1621981222754</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1621981222754</updated>
+    </task>
+    <task id="LOCAL-00020" summary="4Sum">
+      <created>1622089893026</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1622089893027</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Min bulbs to light and duplicate">
+      <created>1622255594522</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1622255594523</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Min bulbs to light and duplicate">
+      <created>1622256489272</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1622256489273</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Formatting">
+      <created>1622256777670</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1622256777670</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Formatting">
+      <created>1622257070449</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1622257070449</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Arrays 2 problems">
+      <created>1622435228715</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1622435228716</updated>
+    </task>
+    <task id="LOCAL-00026" summary="medianOfSorted">
+      <created>1622507551613</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1622507551614</updated>
+    </task>
+    <task id="LOCAL-00027" summary="nearestPallindromic">
+      <created>1622524516686</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1622524516688</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Lecture 1, Recursion files">
+      <created>1622590349079</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1622590349079</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Lecture 2, Backtracking files">
+      <created>1622590415198</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1622590415198</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Lecture 3, Stacks I">
+      <created>1622591784610</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1622591784611</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Comments on medianOf2Sorted">
+      <created>1622608602888</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1622608602889</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Comments on medianOf2Sorted">
+      <created>1622609598524</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1622609598540</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Comments on medianOf2Sorted">
+      <created>1622612853029</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1622612853030</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Comments on medianOf2Sorted">
+      <created>1622612900543</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1622612900544</updated>
+    </task>
+    <task id="LOCAL-00035" summary="minPlatforms and rotateMatrix">
+      <created>1622671491825</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1622671491826</updated>
+    </task>
+    <task id="LOCAL-00036" summary="maxAreaOfIslands and findPeakElement">
+      <created>1622762525055</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1622762525056</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Arrays III">
+      <created>1622993647107</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1622993647108</updated>
+    </task>
+    <task id="LOCAL-00038" summary="maxSlidingWindow">
+      <created>1623034354414</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1623034354415</updated>
+    </task>
+    <task id="LOCAL-00039" summary="koko eating bananas">
+      <created>1623116199441</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1623116199442</updated>
+    </task>
+    <task id="LOCAL-00040" summary="koko eating bananas">
+      <created>1623116990943</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1623116990945</updated>
+    </task>
+    <task id="LOCAL-00041" summary="koko eating bananas">
+      <created>1623117054355</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1623117054356</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Array 3, problems 3-4">
+      <created>1623214585945</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1623214585946</updated>
+    </task>
+    <task id="LOCAL-00043" summary="cleanup">
+      <created>1623330371085</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1623330371086</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Starting Queues and cleanup">
+      <created>1623630319574</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1623630319575</updated>
+    </task>
+    <task id="LOCAL-00045" summary="aggressiveCows">
+      <created>1623818316179</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1623818316180</updated>
+    </task>
+    <task id="LOCAL-00046" summary="firstNonRepeating">
+      <created>1623885293974</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1623885293975</updated>
+    </task>
+    <task id="LOCAL-00047" summary="TimeComplexity">
+      <created>1624506724219</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1624506724220</updated>
+    </task>
+    <task id="LOCAL-00048" summary="CandyCrush">
+      <created>1624511842371</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1624511842372</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Sorting">
+      <created>1625144966007</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1625144966009</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2Sum" />
+    <MESSAGE value="Current problems" />
+    <MESSAGE value="4Sum" />
+    <MESSAGE value="Min bulbs to light and duplicate" />
+    <MESSAGE value="Formatting" />
+    <MESSAGE value="Arrays 2 problems" />
+    <MESSAGE value="medianOfSorted" />
+    <MESSAGE value="nearestPallindromic" />
+    <MESSAGE value="Lecture 1, Recursion files" />
+    <MESSAGE value="Lecture 2, Backtracking files" />
+    <MESSAGE value="Lecture 3, Stacks I" />
+    <MESSAGE value="Comments on medianOf2Sorted" />
+    <MESSAGE value="minPlatforms and rotateMatrix" />
+    <MESSAGE value="maxAreaOfIslands and findPeakElement" />
+    <MESSAGE value="Arrays III" />
+    <MESSAGE value="maxSlidingWindow" />
+    <MESSAGE value="koko eating bananas" />
+    <MESSAGE value="Array 3, problems 3-4" />
+    <MESSAGE value="cleanup" />
+    <MESSAGE value="Starting Queues and cleanup" />
+    <MESSAGE value="aggressiveCows" />
+    <MESSAGE value="firstNonRepeating" />
+    <MESSAGE value="TimeComplexity" />
+    <MESSAGE value="CandyCrush" />
+    <MESSAGE value="Sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorting" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_7-Arrays_III/4-findFirst&amp;LastPosition.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_7-Arrays_III/4-findFirst&amp;LastPosition.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_4-Stacks_II/4-trapRainWater.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_8-Queues-I/1-killProcess.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_8-Queues-I/2-competitiveSubsequence.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_8-Queues-I/3-maxSubarrayMinProduct.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_8-Queues-I/6-sumOfKsubArray.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_8-Queues-I/4-shortestSubArrayWithSumAtLeastK.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/deleteDuplicatesBetweenFolders.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_9-TimeComplexity/1-insertionSort.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_9-TimeComplexity/6-invalidTransactions.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_9-TimeComplexity/7-rankteams.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_9-TimeComplexity/8-candyCrush.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_9-TimeComplexity/9-insertInterval.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_5-Arrays_I/10-2sum.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_9-TimeComplexity/10-kDiff.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/videoCoursesRenamer.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/embed_metadata.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_9-TimeComplexity/11-bubbleSort.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_9-TimeComplexity/3-countingSort.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_10-Sort_I/9-tweetCounts.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_10-Sort_I/0-binaryHeap.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lecture_10-Sort_I/10-reorganizeString.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

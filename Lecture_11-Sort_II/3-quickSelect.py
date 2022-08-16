@@ -1,5 +1,9 @@
 """
 Find kth smallest element in array
+
+https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+Quick select
 """
 
 # Standard partition process of QuickSort().

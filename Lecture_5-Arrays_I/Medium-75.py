@@ -1,6 +1,10 @@
 """
+https://leetcode.com/problems/sort-colors/
+
 An easier variation of this problem is to sort a binary array. This can be easily solved by running two pointers
 from either end and swapping 1s on left with 0s on right
+
+Array, 2 pointer, Sorting
 """
 def dutchFlag(arr):
     lo = mid = 0
@@ -14,7 +18,7 @@ def dutchFlag(arr):
             mid += 1 #No swapping needed since mid tracks 1
         else:
             arr[hi], arr[mid] = arr[mid], arr[hi]
-            hi-=1 #Cannot increment mid here since mid hasnt reached here yet
+            hi-=1 #TODO Why dont we increase mid here??
     return arr
 
 print(dutchFlag([2,2,1,0,1,1,2,0,0]))
