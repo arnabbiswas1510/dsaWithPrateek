@@ -6,7 +6,7 @@ def goodNodes(root, maximum):
     if not root:
         return 0
     maximum=max(maximum, root.val)
-    if root.val == maximum: #Why is this not >= ?
+    if root.val == maximum:
         return 1+ goodNodes(root.left, maximum) + goodNodes(root.right, maximum)
     else:
         return goodNodes(root.left, maximum) + goodNodes(root.right, maximum)
@@ -22,4 +22,4 @@ def goodNodesDoesntWork(root): #Can you intuit why?
 from treeOperations import Tree
 t=Tree()
 r=t.insertLevelOrder([3,1,4,3,None,1,5])
-print(goodNodesDoesntWork(r))
+print(goodNodes(r, r.val))

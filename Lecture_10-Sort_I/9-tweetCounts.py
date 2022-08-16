@@ -10,7 +10,7 @@ from collections import defaultdict
 class TweetCounts:
 
     def __init__(self):
-        self.a = defaultdict(list) #Map of tweet and list of times it came in
+        self.a = defaultdict(list)
 
     def recordTweet(self, tn, time):
         bisect.insort(self.a[tn], time)
@@ -21,9 +21,7 @@ class TweetCounts:
         res = []
         while i <= endTime:
             j = min(i + delta, endTime+1)
-            res.append(bisect.bisect_left(self.a[tn], j) - bisect.bisect_left(self.a[tn], i)) #bisect_left returns the
-            # leftmost position of the element in sorted array in case the element is repeated n the array.
-            # bisect_right returns rightmost. If element is not repeated they both return same value
+            res.append(bisect.bisect_left(self.a[tn], j) - bisect.bisect_left(self.a[tn], i))
             i += delta
         return res
 

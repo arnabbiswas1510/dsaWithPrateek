@@ -2,7 +2,6 @@
 https://leetcode.com/problems/lru-cache/
 
 Other popular Cache implementations are:
-2 data structures you need for LRU are 1. Doubly linked list and 2. HashMap
 1. LFU (least Frequently Used)
 2.
 """

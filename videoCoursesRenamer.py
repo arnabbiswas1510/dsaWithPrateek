@@ -17,7 +17,7 @@ def natural_keys(text):
     '''
     return [ atoi(c) for c in re.split(r'(\d+)', text) ]
 
-path=r"X:\The Complete 2018 Mind Mapping Step-By-Step Mastery Course"
+path="Y:\downloads\Java Collections Framework + Generics, Lambdas & Stream API\[TutsNode.com] - Java Collections Framework + Generics, Lambdas & Stream API"
 regex=re.compile("\d+")
 sCnt=1
 
@@ -61,11 +61,11 @@ prev_parent=None
 sCnt=1
 
 for dirpath, dirnames, filenames in os.walk(path):
-    eCnt=0
+    eCnt=249
     filenames.sort(key=natural_keys)
     seq_from_files=False
     for filename in filenames:
-        if any(ext in filename for ext in ('mp4', 'avi', 'srt', 'm4v', 'MP4')) and not filename.startswith("."):
+        if any(ext in filename for ext in ('mp4', 'avi', 'srt')) and not filename.startswith("."):
             full_path = os.path.join(dirpath, filename)
             this_parent = str(Path(full_path).parent)
             if not prev_parent:
@@ -85,7 +85,7 @@ for dirpath, dirnames, filenames in os.walk(path):
                 eCnt = e_Cnt
             else:
                 eCnt=int(eCnt)+1
-            new_path = os.path.join(dirpath, 'S'+str(sCnt)+'E'+str(eCnt)+'--'+f_name+f_ext)
+            new_path = os.path.join(dirpath, f_name[:s]+f_name[e:]+'-S'+str(sCnt)+'E'+str(eCnt)+f_ext)
             full_path=adjustForLength(full_path)
             new_path=adjustForLength(new_path)
             print(full_path + " - to - "+ new_path)
