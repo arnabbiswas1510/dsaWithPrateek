@@ -11,7 +11,7 @@ def natural_keys(text):
     '''
     return [ atoi(c) for c in re.split(r'(\d+)', text) ]
 
-files=r"Y:\Workout Videos\Yang Tai Chi for beginners/*.mp4"
+files=r"X:\Downloads\Maa Shakti\*.mkv"
 regex=re.compile("\d+")
 
 fileList = glob.glob(files)

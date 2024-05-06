@@ -1,4 +1,5 @@
 """
+This is the recursive version
 Requirements:
 1. Return tuple with start index and end index of numbers in file if each file has a sequence of numbers in folder
 2. If no sequence return -1, -1 and dont modify filename, just add count to E number
@@ -17,7 +18,7 @@ def natural_keys(text):
     '''
     return [ atoi(c) for c in re.split(r'(\d+)', text) ]
 
-path=r"X:\The Complete 2018 Mind Mapping Step-By-Step Mastery Course"
+path=r"X:\[FreeCoursesOnline.Me] Code With Mosh - The Ultimate Design Patterns [Series] 3 In 1\Structural Patterns"
 regex=re.compile("\d+")
 sCnt=1
 

@@ -1,3 +1,7 @@
+"""
+This is a minHeap
+"""
+
 class BinHeap:
     def __init__(self):
         self.heapList = [0]
