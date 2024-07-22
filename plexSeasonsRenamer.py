@@ -23,7 +23,7 @@
 import re
 import sys
  
-TARGET_SERIES = "NeetCode Advanced Algorithms"
+TARGET_SERIES = "Striver's A2z Dsa Course"
 TARGET_LIBRARY = "Tech Courses"
  
 if len(sys.argv) > 1:
